@@ -35,6 +35,21 @@ Phishing-Email-Detection/
 ├── README.md
 └── .gitignore
 ```
+##Note
+
+The dataset is not included in this repository due to GitHub file size limitations.
+
+Dataset Source:
+https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset
+
+Download Dataset
+Download the dataset from the Kaggle link above.
+Extract the downloaded files.
+Place the CSV file inside the dataset folder.
+dataset/
+└── phishing_email.csv
+
+Make sure the dataset file is named phishing_email.csv before running the training script.
 
 ## Installation
 
@@ -95,3 +110,6 @@ python src/predict.py
 
 This project is intended for educational and cybersecurity learning purposes.
 
+##Author
+
+Rajeev
